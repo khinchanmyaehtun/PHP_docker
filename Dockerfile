@@ -60,7 +60,7 @@ fi ;
 
 WORKDIR /app
 
-RUN useradd -u 1000 -rm -d /home/nexlabs -g root -G www-data non-rootuser 
+RUN useradd -u 1000 -rm -d /home/non-rootuser -g root -G www-data non-rootuser 
 
 USER non-rootuser
 
